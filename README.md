@@ -2,6 +2,8 @@
 
 **作者**：tuxi · [GitHub](https://github.com/tuxi) · [X](https://x.com/thebitcode) · seyooe@gmail.com
 
+*English: [README.en.md](README.en.md)*
+
 > 本页**只用于**：署名、版本说明、**SHA-256 校验值**与**验签方法**。
 > 本仓库**不包含**任何二进制、脚本或实现细节。
 
