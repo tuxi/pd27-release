@@ -1,9 +1,11 @@
 # PD27 Activation Pack · Release & Verification
 
-**Author**: tuxi · [GitHub](https://github.com/tuxi) · [X](https://x.com/thebitcode) · seyooe@gmail.com
+**Author**: tuxi · [GitHub](https://github.com/tuxi/pd27-release) · [X](https://x.com/thebitcode) · seyooe@gmail.com
 
 > This page exists **only** for: attribution, release info, **SHA-256 checksums** and **verification steps**.
 > This repository contains **no binaries, no scripts, and no implementation details**.
+>
+> 📜 **Version history & per-version SHA-256**: [`VERSIONS.md`](VERSIONS.md)
 >
 > 中文说明见 [README.md](README.md)。
 
