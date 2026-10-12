@@ -8,6 +8,17 @@
 
 ---
 
+## v1.2.0 — 2026-10-13
+
+说明：**签名策略变更** —— 默认**不再关联 Apple 开发者身份**（`pd27tool` ad-hoc、**PKG/DMG 未签名、不公证**）；产物中移除个人邮箱。
+首次打开需 **右键 → 打开**（或 `sudo xattr -dr com.apple.quarantine <文件>`）。
+
+| 文件 | SHA-256 |
+|------|---------|
+| `PD27激活补丁包.pkg` | `9cee7f670403c8f340a7036c3990f1e384ab0eaf140c5cca4d51be129b7bae8e` |
+| `PD27激活补丁包.dmg` | `34406eb14b3a16608f685fdfb59fefaf72883043cfb7671d9663075057ad996b` |
+| `PD27-Activation-Pack-27.0.3-58680.tar.gz` | `a5f906be71116d253e8b37772b825ca75a620ccfbb05e0e8d88719a5f8bc923c` |
+
 ## v1.1.2 — 2026-10-13
 
 说明：署名改用发布页地址；PKG 三个页面显示**版本 + 构建号**；PKG 内链接改为**可复制文本**；`pd27tool --version` 同步。

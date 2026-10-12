@@ -34,8 +34,11 @@ shasum -a 256 -c SHA256SUMS.txt
 /usr/sbin/pkgutil --check-signature "PD27激活补丁包.pkg"
 ```
 
-- 预期：`accepted` / `source=Notarized Developer ID` / `origin=Developer ID ... (NKW67GFDHM)`；
-- 若**不一致** → 不是官方版本，**可能被篡改，请勿使用**，并从官方渠道重新获取。
+- 本包**默认未签名 / 未公证**（作者刻意**不关联 Apple 开发者身份**）→ `spctl` 会显示
+  `rejected / Unnotarized`（或 `code object is not signed`），**这是预期的**；
+  首次打开请**右键 → 打开**，或先 `sudo xattr -dr com.apple.quarantine <文件>`。
+- **判真伪以 SHA-256 为准**：与 [`SHA256SUMS.txt`](SHA256SUMS.txt)（或 [`VERSIONS.md`](VERSIONS.md) 对应版本）**完全一致**才是官方产物；
+  不一致 → 不是官方版本，**可能被篡改，请勿使用**，并从官方渠道重新获取。
 
 ## 许可与免责
 

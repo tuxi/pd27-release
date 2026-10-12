@@ -34,8 +34,11 @@ shasum -a 256 -c SHA256SUMS.txt
 /usr/sbin/pkgutil --check-signature "PD27激活补丁包.pkg"
 ```
 
-- Expected: `accepted` / `source=Notarized Developer ID` / `origin=Developer ID ... (NKW67GFDHM)`.
-- If it **does not match**: the file is not an official build — **it may have been tampered with; do not use it**, and re-download from the official channel.
+- This pack is **unsigned / not notarized by default** (the author deliberately does **not** associate an Apple Developer identity) →
+  `spctl` reports `rejected / Unnotarized` (or `code object is not signed`); **this is expected**.
+  On first launch: **right-click → Open**, or run `sudo xattr -dr com.apple.quarantine <file>` first.
+- **Authenticity is judged by SHA-256**: it must match [`SHA256SUMS.txt`](SHA256SUMS.txt) (or the matching entry in [`VERSIONS.md`](VERSIONS.md)).
+  If it does not match: not an official build — **it may have been tampered with; do not use it**.
 
 ## License & Disclaimer
 
