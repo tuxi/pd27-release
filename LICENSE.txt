@@ -1,0 +1,27 @@
+PD27 激活补丁包 —— 使用许可（禁止二次分发）
+Copyright (c) 2026 tuxi · https://github.com/tuxi · https://x.com/thebitcode
+
+【允许】
+ 1. 仅在你自己拥有/控制的设备上使用本工具（本机自用）。
+
+【禁止】
+ 1. 任何形式的再分发：转发、上传网盘/论坛/群组/公众号、打包镜像等；
+ 2. 商业用途、售卖、嵌入或捆绑进其它产品/服务；
+ 3. 删除、修改或隐藏本文件、NOTICE 文本，以及产物中的作者署名；
+ 4. 将本工具用于未经授权的他人设备。
+
+如需转载或分发，请事先取得作者书面许可。
+
+本工具按“现状”提供，不提供任何担保；因使用本工具产生的任何后果由使用者自负。
+完整免责声明见安装包内的免责声明页 / README。
+
+--------------------------------------------------------------------
+
+PD27 Activation Pack — License (redistribution prohibited)
+Copyright (c) 2026 tuxi · https://github.com/tuxi · https://x.com/thebitcode
+
+Permitted: personal use on devices you own or control.
+Prohibited: redistribution in any form, commercial use, bundling into other
+products, removing or altering this notice or the author attribution, use on
+devices you do not own.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

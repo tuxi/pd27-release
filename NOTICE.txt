@@ -1,0 +1,8 @@
+PD27 激活补丁包 (Parallels Desktop 27.0.3 / 58680)
+by tuxi
+GitHub: https://github.com/tuxi
+X:      https://x.com/thebitcode
+Email:  seyooe@gmail.com
+
+本工具为个人自用，仅用于本机逆向学习；禁止二次分发与商业使用。
+若你从非上述渠道获得本包，它可能已被篡改——请以官方发布为准并核对 SHA-256。
