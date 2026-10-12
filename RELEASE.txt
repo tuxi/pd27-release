@@ -1,11 +1,11 @@
 PD27 激活补丁包
 by tuxi · https://github.com/tuxi/pd27-release · https://x.com/thebitcode
-Built: 2026-10-13 02:48:37
+Built: 2026-10-13 02:58:23
 
 == SHA-256 ==
-a4212777ec1bd43488a51e0ccac2bd4c5b363b84d3efd888e6c203393bdfe1eb  PD27激活补丁包.pkg
-455ef1fcfc60d156b7ce47166965a70a5426f7ee34d9b92b0e753df7baa3618d  PD27激活补丁包.dmg
-6da0f8681a7fd7f7aad522f6776045c3225ab6fba71f8fa5143dc10e9abc78fb  PD27-Activation-Pack-27.0.3-58680.tar.gz
+a492f044d3b9faad07ec17a7374c1151434208a4e5700b17b8882a52ae0adf04  PD27激活补丁包.pkg
+f0ceff68082acd5da922a0e3c96261f71f08f4b7de2a9fed8042898f89af40fe  PD27激活补丁包.dmg
+3afa995b620cb18eb3426bee01f28d032c639d142d4e295be6c375e7d398b225  PD27-Activation-Pack-27.0.3-58680.tar.gz
 
 == 校验文件完整性 ==
   cd dist && shasum -a 256 -c SHA256SUMS.txt
