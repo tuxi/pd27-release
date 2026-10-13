@@ -18,8 +18,8 @@
 
 ## Artifacts
 
-- `PD27激活补丁包.pkg` — installer (Welcome / Disclaimer / Conclusion pages)
-- `PD27激活补丁包.dmg` — one-click disk image
+- `PD27激活许可证.pkg` — installer (Welcome / Disclaimer / Conclusion pages)
+- `PD27激活许可证.dmg` — one-click disk image
 - Distributed through the **official channel** only (see below).
 
 ## Verify (always check the file you received)
@@ -29,9 +29,9 @@
 shasum -a 256 -c SHA256SUMS.txt
 
 # 2) Signature / notarization (expect: accepted / Notarized Developer ID)
-/usr/sbin/spctl -a -vv -t install "PD27激活补丁包.pkg"
-/usr/sbin/spctl -a -vv -t open --context context:primary-signature "PD27激活补丁包.dmg"
-/usr/sbin/pkgutil --check-signature "PD27激活补丁包.pkg"
+/usr/sbin/spctl -a -vv -t install "PD27激活许可证.pkg"
+/usr/sbin/spctl -a -vv -t open --context context:primary-signature "PD27激活许可证.dmg"
+/usr/sbin/pkgutil --check-signature "PD27激活许可证.pkg"
 ```
 
 - This pack is **unsigned / not notarized by default** (the author deliberately does **not** associate an Apple Developer identity) →

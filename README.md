@@ -1,4 +1,4 @@
-# PD27 激活补丁包 · 发布与验真页
+# PD27 激活许可证 · 发布与验真页
 
 **作者**：tuxi · [GitHub](https://github.com/tuxi) · [X](https://x.com/thebitcode) · seyooe@gmail.com
 
@@ -18,8 +18,8 @@
 
 ## 产物
 
-- `PD27激活补丁包.pkg`（含欢迎 / 免责声明 / 完成页）
-- `PD27激活补丁包.dmg`（一键安装）
+- `PD27激活许可证.pkg`（含欢迎 / 免责声明 / 完成页）
+- `PD27激活许可证.dmg`（一键安装）
 - 通过**官方渠道**分发（见下）。
 
 ## 校验（拿到文件后请自行核对）
@@ -29,9 +29,9 @@
 shasum -a 256 -c SHA256SUMS.txt
 
 # 2) 签名 / 公证（应为 accepted / Notarized Developer ID）
-/usr/sbin/spctl -a -vv -t install "PD27激活补丁包.pkg"
-/usr/sbin/spctl -a -vv -t open --context context:primary-signature "PD27激活补丁包.dmg"
-/usr/sbin/pkgutil --check-signature "PD27激活补丁包.pkg"
+/usr/sbin/spctl -a -vv -t install "PD27激活许可证.pkg"
+/usr/sbin/spctl -a -vv -t open --context context:primary-signature "PD27激活许可证.dmg"
+/usr/sbin/pkgutil --check-signature "PD27激活许可证.pkg"
 ```
 
 - 本包**默认未签名 / 未公证**（作者刻意**不关联 Apple 开发者身份**）→ `spctl` 会显示
